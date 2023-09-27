@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temperature Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Convert Temperature</h1>
+    
+<div id="container">
+   
+    <div id="box">
+    <label for="fromUnit">From:</label>
+    <select id="fromUnit">
+       
+        <option   value="celsius" >Celsius(&deg;C)</option>
+        <option   value="fahrenheit">Fahrenheit(&deg;F)</option>
+        
+      </select>
+
+      <label for="toUnit">To:</label>
+      <select id="toUnit">
+        
+        <option  value="celsius" >Celsius(&deg;C)</option>
+        <option value="fahrenheit">Fahrenheit(&deg;F)</option>
+       
+      </select>
+  
+</div>
+<div id="bot">
+    <input type="number" id="temperature" placeholder="Value to Convert " />
+    <p id="result"></p>
+    <div>
+        <button id="Button">Click to Convert</button>
+    </div>
+</div>
+  
+</div>
+<script src="temp.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Varela+Round&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('image.jpg');
+    background-position:100%;
+    background-size: cover;
+  }
+  #container {
+    width: 600px; 
+    height: 500px; 
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+ 
+   
+  }
+ 
+  
+  #box {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #box select
+ {
+    margin: 0 9px; 
+    
+  }
+  #box label{
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  #bot {
+    display: grid;
+    grid-template-rows: repeat(2, 2fr);
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: -20px;
+  }
+  select {
+    height:50px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    box-sizing: 50%;
+    background-color: #9c9c9c61;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    
+  }
+
+  option{
+    
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #e0c4c461;
+  }
+
+ input{
+    border-radius: 20px;
+    font-size: 20px;
+    height:50px;
+    color: black;
+    background-color: #e0c4c461;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding: 0 10px;
+  }
+
+  p{
+    border-radius: 20px;
+    font-size: 20px;
+    height:20px;
+    color: black;
+    box-sizing: 50%;
+    background-color: #e0c4c461;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    padding: 0 10px;
+    
+  }
+
+ input::placeholder{
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  #Button{
+    
+    border-radius: 30px;
+    height:50px;
+    color: white;
+    padding: 5px 15px; 
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    transition: 0.9s;
+    background-image:linear-gradient(rgb(140, 219, 140),
+    rgb(20, 141, 20));
+  }
+  
+  #Button:hover{
+    background: transparent;
+  }
+  
+
+
+
+
+@media (max-width: 480px) {
+  #container {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #container {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #container {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  
+
+ 
+}
